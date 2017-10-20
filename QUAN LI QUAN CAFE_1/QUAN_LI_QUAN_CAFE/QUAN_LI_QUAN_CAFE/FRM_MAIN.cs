@@ -12,7 +12,7 @@ namespace QUAN_LI_QUAN_CAFE
 {
     public partial class FRM_MAIN : Form
     {
-        public FRM_MAIN()//Đã đổi cái gì đó
+        public FRM_MAIN()//Đã đổi cái gì đó...
         {
             InitializeComponent();
         }
