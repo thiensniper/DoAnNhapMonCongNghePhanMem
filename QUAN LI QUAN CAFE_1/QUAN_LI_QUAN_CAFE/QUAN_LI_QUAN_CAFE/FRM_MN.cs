@@ -25,6 +25,7 @@ namespace QUAN_LI_QUAN_CAFE
         private void BT_E_Click(object sender, EventArgs e)
         {
             this.Close();
+            //cai gi do
         }
     }
 }
