@@ -48,18 +48,20 @@
             // 
             this.LB_TIEUDE.AutoSize = true;
             this.LB_TIEUDE.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.LB_TIEUDE.Location = new System.Drawing.Point(114, 36);
+            this.LB_TIEUDE.Location = new System.Drawing.Point(152, 44);
+            this.LB_TIEUDE.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LB_TIEUDE.Name = "LB_TIEUDE";
-            this.LB_TIEUDE.Size = new System.Drawing.Size(626, 46);
+            this.LB_TIEUDE.Size = new System.Drawing.Size(778, 58);
             this.LB_TIEUDE.TabIndex = 8;
-            this.LB_TIEUDE.Text = "QUẢN LÍ QUÁN CAFE BALCONY";
+            this.LB_TIEUDE.Text = "QUẢN LÍ QUÁN CAFÉ BALCONY";
             // 
             // BT_QL_DU
             // 
             this.BT_QL_DU.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BT_QL_DU.Location = new System.Drawing.Point(6, 19);
+            this.BT_QL_DU.Location = new System.Drawing.Point(8, 23);
+            this.BT_QL_DU.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BT_QL_DU.Name = "BT_QL_DU";
-            this.BT_QL_DU.Size = new System.Drawing.Size(355, 61);
+            this.BT_QL_DU.Size = new System.Drawing.Size(473, 75);
             this.BT_QL_DU.TabIndex = 10;
             this.BT_QL_DU.Text = "QUẢN LÍ DANH SÁCH ĐỒ UỐNG";
             this.BT_QL_DU.UseVisualStyleBackColor = true;
@@ -68,9 +70,10 @@
             // BT_XEM_HD
             // 
             this.BT_XEM_HD.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BT_XEM_HD.Location = new System.Drawing.Point(6, 83);
+            this.BT_XEM_HD.Location = new System.Drawing.Point(8, 102);
+            this.BT_XEM_HD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BT_XEM_HD.Name = "BT_XEM_HD";
-            this.BT_XEM_HD.Size = new System.Drawing.Size(355, 61);
+            this.BT_XEM_HD.Size = new System.Drawing.Size(473, 75);
             this.BT_XEM_HD.TabIndex = 10;
             this.BT_XEM_HD.Text = "XEM HÓA ĐƠN BÁN HÀNG";
             this.BT_XEM_HD.UseVisualStyleBackColor = true;
@@ -79,9 +82,10 @@
             // BT_MENU
             // 
             this.BT_MENU.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BT_MENU.Location = new System.Drawing.Point(6, 147);
+            this.BT_MENU.Location = new System.Drawing.Point(8, 181);
+            this.BT_MENU.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BT_MENU.Name = "BT_MENU";
-            this.BT_MENU.Size = new System.Drawing.Size(355, 61);
+            this.BT_MENU.Size = new System.Drawing.Size(473, 75);
             this.BT_MENU.TabIndex = 10;
             this.BT_MENU.Text = "TRA CỨU ĐỒ UỐNG (MENU)";
             this.BT_MENU.UseVisualStyleBackColor = true;
@@ -90,9 +94,10 @@
             // BT_QL_CB
             // 
             this.BT_QL_CB.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BT_QL_CB.Location = new System.Drawing.Point(6, 83);
+            this.BT_QL_CB.Location = new System.Drawing.Point(8, 102);
+            this.BT_QL_CB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BT_QL_CB.Name = "BT_QL_CB";
-            this.BT_QL_CB.Size = new System.Drawing.Size(355, 61);
+            this.BT_QL_CB.Size = new System.Drawing.Size(473, 75);
             this.BT_QL_CB.TabIndex = 10;
             this.BT_QL_CB.Text = "QUẢN LÍ DANH SÁCH COMBO";
             this.BT_QL_CB.UseVisualStyleBackColor = true;
@@ -101,9 +106,10 @@
             // BT_LAP_HD
             // 
             this.BT_LAP_HD.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BT_LAP_HD.Location = new System.Drawing.Point(6, 19);
+            this.BT_LAP_HD.Location = new System.Drawing.Point(8, 23);
+            this.BT_LAP_HD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BT_LAP_HD.Name = "BT_LAP_HD";
-            this.BT_LAP_HD.Size = new System.Drawing.Size(355, 61);
+            this.BT_LAP_HD.Size = new System.Drawing.Size(473, 75);
             this.BT_LAP_HD.TabIndex = 10;
             this.BT_LAP_HD.Text = "LẬP HÓA ĐƠN BÁN HÀNG";
             this.BT_LAP_HD.UseVisualStyleBackColor = true;
@@ -113,9 +119,10 @@
             // 
             this.BT_E.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BT_E.ForeColor = System.Drawing.Color.Red;
-            this.BT_E.Location = new System.Drawing.Point(390, 284);
+            this.BT_E.Location = new System.Drawing.Point(520, 350);
+            this.BT_E.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BT_E.Name = "BT_E";
-            this.BT_E.Size = new System.Drawing.Size(355, 61);
+            this.BT_E.Size = new System.Drawing.Size(473, 75);
             this.BT_E.TabIndex = 10;
             this.BT_E.Text = "THOÁT CHƯƠNG TRÌNH";
             this.BT_E.UseVisualStyleBackColor = true;
@@ -127,9 +134,11 @@
             this.groupBox1.Controls.Add(this.BT_QL_CB);
             this.groupBox1.Controls.Add(this.BT_MENU);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(12, 126);
+            this.groupBox1.Location = new System.Drawing.Point(16, 155);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(367, 219);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(489, 270);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "QUẢN LÍ SẢN PHẦM";
@@ -139,9 +148,11 @@
             this.groupBox2.Controls.Add(this.BT_LAP_HD);
             this.groupBox2.Controls.Add(this.BT_XEM_HD);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(384, 126);
+            this.groupBox2.Location = new System.Drawing.Point(512, 155);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(367, 154);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(489, 190);
             this.groupBox2.TabIndex = 12;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "QUẢN LÍ BÁN HÀNG";
@@ -149,18 +160,19 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::QUAN_LI_QUAN_CAFE.Properties.Resources.coffeecup_78400;
-            this.pictureBox1.Location = new System.Drawing.Point(16, 13);
+            this.pictureBox1.Location = new System.Drawing.Point(21, 16);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(96, 89);
+            this.pictureBox1.Size = new System.Drawing.Size(128, 110);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
             // FRM_MAIN
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(767, 379);
+            this.ClientSize = new System.Drawing.Size(1023, 466);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.BT_E);
@@ -168,10 +180,11 @@
             this.Controls.Add(this.LB_TIEUDE);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "FRM_MAIN";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "QUẢN LÍ QUÁN CAFE BALCONY";
+            this.Text = "QUẢN LÍ QUÁN CAFÉ BALCONY";
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
